@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "neko.violetmist.skullvision.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "skullvision.refmap.json",
+  "client": [
+    "GameRendererMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
